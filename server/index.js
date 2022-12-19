@@ -9,7 +9,6 @@ const app = express();
 app.use(cors());
 
 //import your models
-require("./models/quote");
 const PORT = process.env.PORT || 5000;
 
 mongoose
@@ -25,7 +24,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 //import routes
-require("./routes/scheduleRoutes.js")(app);
+require("./routes.js")(app);
 
 // Accessing the path module
 const path = require("path");
