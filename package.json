@@ -1,5 +1,5 @@
 {
-  "name": "workoutbuddy",
+  "name": "renderDeployTemplate",
   "version": "1.0.0",
   "description": "",
   "main": "./server/index.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nemgreene/workoutBuddy.git"
+    "url": "git+https://github.com/nemgreene/renderDeployTemplate.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nemgreene/workoutBuddy/issues"
+    "url": "https://github.com/nemgreene/renderDeployTemplate/issues"
   },
-  "homepage": "https://github.com/nemgreene/workoutBuddy#readme",
+  "homepage": "https://github.com/nemgreene/renderDeployTemplate#readme",
   "dependencies": {
     "concurrently": "^7.6.0",
     "nodemon": "^2.0.20"
